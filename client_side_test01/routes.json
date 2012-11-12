@@ -1,0 +1,19 @@
+[{
+    "settings": ["master"],
+    
+    "/": {
+        "verb": ["get"],
+        "path": "/",
+        "call": "frame.index"
+    },
+     "client": {
+        "verb": ["get"],
+        "path": "/client",
+        "call": "frame2.index"
+    },
+    "external": {
+        "verb": ["get"],
+        "path": "/rss",
+        "call": "frame.rss"  
+    }
+}]

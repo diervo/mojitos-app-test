@@ -1,0 +1,39 @@
+[
+    {
+        "settings": [ "master" ],
+        "shaker": {
+            "rollupConfig": {
+                "bundleViews": false,
+                "bundleController": false
+            }
+        },
+        "specs": {
+            "frame": {
+                "type": "ShakerHTMLFrameMojit",
+                "config": {
+                    "deploy": true,
+                    "title": "Shaker Demo",
+                    "child": {
+                        "type": "Main"
+                    }
+                }
+            },
+            "frame2": {
+                "type": "ShakerHTMLFrameMojit",
+                "config": {
+                    "deploy": true,
+                    "title": "Shaker Demo",
+                    "child": {
+                        "type": "Client"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "settings": ["environment:test"],
+        "shaker": {
+            "task": "local"
+        }
+    }
+]
