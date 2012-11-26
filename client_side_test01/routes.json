@@ -1,19 +1,14 @@
 [{
     "settings": ["master"],
     
-    "/": {
+    "default": {
         "verb": ["get"],
         "path": "/",
         "call": "frame.index"
     },
-     "client": {
+     "bundle": {
         "verb": ["get"],
-        "path": "/client",
-        "call": "frame2.index"
-    },
-    "external": {
-        "verb": ["get"],
-        "path": "/rss",
-        "call": "frame.rss"  
+        "path": "/bundle",
+        "call": "frameBundle.index"
     }
 }]

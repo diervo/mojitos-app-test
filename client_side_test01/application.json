@@ -2,9 +2,16 @@
     {
         "settings": [ "master" ],
         "shaker": {
+            "optimizeBootstrap": true,
+
             "rollupConfig": {
                 "bundleViews": false,
                 "bundleController": false
+            },
+            "routeBundle": {
+                "bundle": [
+                    "Main.index"   
+                ]
             }
         },
         "specs": {
@@ -18,13 +25,13 @@
                     }
                 }
             },
-            "frame2": {
+            "frameBundle": {
                 "type": "ShakerHTMLFrameMojit",
                 "config": {
                     "deploy": true,
                     "title": "Shaker Demo",
                     "child": {
-                        "type": "Client"
+                        "type": "Main"
                     }
                 }
             }
@@ -33,7 +40,8 @@
     {
         "settings": ["environment:test"],
         "shaker": {
-            "task": "local"
+            "task": "local",
+            "minify": false
         }
     }
 ]

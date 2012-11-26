@@ -45,9 +45,17 @@ YUI.add('MainBinderIndex', function(Y, NAME) {
             }, this);
 
             Y.one('.other').on('click', function (e) {
-                console.log('Oter');
+                console.log('Other');
                 e.preventDefault();
                 this.mojitProxy.invoke('other', function (err, data, meta){
+                    console.log(arguments);
+                });
+            },this);
+
+            Y.one('.same').on('click', function (e) {
+                console.log('Same');
+                e.preventDefault();
+                this.mojitProxy.invoke('index', function (err, data, meta){
                     console.log(arguments);
                 });
             },this);
@@ -57,4 +65,4 @@ YUI.add('MainBinderIndex', function(Y, NAME) {
 
     };
 
-}, '0.0.1', {requires: ['event-mouseenter', 'mojito-client', 'poc-view']});
+}, '0.0.1', {requires: ['event-mouseenter', 'mojito-client']});
