@@ -43,5 +43,26 @@
             "task": "local",
             "minify": false
         }
+    },
+    {
+        "settings": ["environment:prod"],
+        "task": "mobstor",
+        "module": "mojito-shaker-mobstor",
+        "comboCDN": true,
+        "rollupConfig":{
+            "bundleViews": false,
+            "bundleController": false
+        },
+        "taskConfig": {
+            "mobstor": {
+                "ycs": "l.yimg.com/pv/",
+                "host": "search.zenfs.com",
+                "certificate": "yahoo.mobstor.client.search.prod",
+                "proxy": {
+                    "host": "yca-proxy.corp.yahoo.com",
+                    "port": 3128
+                }
+            }
+        }
     }
 ]

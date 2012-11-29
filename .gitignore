@@ -2,3 +2,5 @@ client_side_test01/node_modules
 .DS_Store
 
 client_side_test01/shaker-meta.json
+
+client_side_test01/assets/compiled
