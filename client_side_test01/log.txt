@@ -1,0 +1,1712 @@
+[34m[SHAKER] - Initializing ShakerCore[39m
+[1m[32m[SHAKER] - Store preloaded correctly ✔[39m[22m
+[34m[SHAKER] - Analyzing Mojito App...[39m
+{
+	"app": {
+		"*": {
+			"mojits": {
+				"Main": {
+					"inline": {
+						"css": [
+							{
+								"source": {
+									"fs": {
+										"fullPath": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main/assets/inlinecss.shaker-inline.css",
+										"rootDir": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main",
+										"rootType": "mojit",
+										"subDir": ".",
+										"subDirArray": [],
+										"isFile": true,
+										"ext": ".css",
+										"basename": "inlinecss"
+									},
+									"pkg": {
+										"name": "client_side_test01",
+										"version": "0.0.1",
+										"depth": 0
+									},
+									"inline": true
+								},
+								"mojit": "Main",
+								"type": "asset",
+								"subtype": "css",
+								"affinity": {
+									"affinity": "common"
+								},
+								"selector": "*",
+								"name": "inlinecss",
+								"id": "asset-css-inlinecss",
+								"mime": {
+									"type": "text/css",
+									"charset": "UTF-8"
+								},
+								"url": "/static/Main/assets/inlinecss.shaker-inline.css"
+							}
+						],
+						"js": []
+					},
+					"index": {
+						"js": [
+							{
+								"source": {
+									"fs": {
+										"fullPath": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main/binders/index.js",
+										"rootDir": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main",
+										"rootType": "mojit",
+										"subDir": ".",
+										"subDirArray": [],
+										"isFile": true,
+										"ext": ".js",
+										"basename": "index"
+									},
+									"pkg": {
+										"name": "client_side_test01",
+										"version": "0.0.1",
+										"depth": 0
+									}
+								},
+								"mojit": "Main",
+								"type": "binder",
+								"affinity": {
+									"affinity": "client"
+								},
+								"selector": "*",
+								"name": "index",
+								"id": "binder--index",
+								"yui": {
+									"name": "MainBinderIndex",
+									"version": "0.0.1",
+									"meta": {
+										"requires": [
+											"event-mouseenter",
+											"mojito-client"
+										]
+									}
+								},
+								"mime": {
+									"type": "application/javascript"
+								},
+								"url": "/static/MainBinderIndex.js"
+							}
+						],
+						"css": [
+							{
+								"source": {
+									"fs": {
+										"fullPath": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main/assets/mainBase.css",
+										"rootDir": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main",
+										"rootType": "mojit",
+										"subDir": ".",
+										"subDirArray": [],
+										"isFile": true,
+										"ext": ".css",
+										"basename": "mainBase"
+									},
+									"pkg": {
+										"name": "client_side_test01",
+										"version": "0.0.1",
+										"depth": 0
+									}
+								},
+								"mojit": "Main",
+								"type": "asset",
+								"subtype": "css",
+								"affinity": {
+									"affinity": "common"
+								},
+								"selector": "*",
+								"name": "mainBase",
+								"id": "asset-css-mainBase",
+								"mime": {
+									"type": "text/css",
+									"charset": "UTF-8"
+								},
+								"url": "/static/Main/assets/mainBase.css"
+							},
+							{
+								"source": {
+									"fs": {
+										"fullPath": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main/assets/index.css",
+										"rootDir": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main",
+										"rootType": "mojit",
+										"subDir": ".",
+										"subDirArray": [],
+										"isFile": true,
+										"ext": ".css",
+										"basename": "index"
+									},
+									"pkg": {
+										"name": "client_side_test01",
+										"version": "0.0.1",
+										"depth": 0
+									}
+								},
+								"mojit": "Main",
+								"type": "asset",
+								"subtype": "css",
+								"affinity": {
+									"affinity": "common"
+								},
+								"selector": "*",
+								"name": "index",
+								"id": "asset-css-index",
+								"mime": {
+									"type": "text/css",
+									"charset": "UTF-8"
+								},
+								"url": "/static/Main/assets/index.css"
+							}
+						],
+						"required": {
+							"MainBinderIndex": true,
+							"event-mouseenter": true,
+							"event-synthetic": true,
+							"node-base": true,
+							"event-base": true,
+							"event-custom-base": true,
+							"oop": true,
+							"yui-base": true,
+							"node-core": true,
+							"dom-core": true,
+							"features": true,
+							"selector": true,
+							"selector-native": true,
+							"dom-base": true,
+							"event-custom-complex": true,
+							"mojito-client": true
+						}
+					},
+					"other": {
+						"js": [
+							{
+								"source": {
+									"fs": {
+										"fullPath": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main/binders/other.js",
+										"rootDir": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main",
+										"rootType": "mojit",
+										"subDir": ".",
+										"subDirArray": [],
+										"isFile": true,
+										"ext": ".js",
+										"basename": "other"
+									},
+									"pkg": {
+										"name": "client_side_test01",
+										"version": "0.0.1",
+										"depth": 0
+									}
+								},
+								"mojit": "Main",
+								"type": "binder",
+								"affinity": {
+									"affinity": "client"
+								},
+								"selector": "*",
+								"name": "other",
+								"id": "binder--other",
+								"yui": {
+									"name": "MainBinderOther",
+									"version": "0.0.1",
+									"meta": {
+										"requires": [
+											"event-mouseenter",
+											"mojito-client"
+										]
+									}
+								},
+								"mime": {
+									"type": "application/javascript"
+								},
+								"url": "/static/MainBinderOther.js"
+							}
+						],
+						"css": [
+							{
+								"source": {
+									"fs": {
+										"fullPath": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main/assets/mainBase.css",
+										"rootDir": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main",
+										"rootType": "mojit",
+										"subDir": ".",
+										"subDirArray": [],
+										"isFile": true,
+										"ext": ".css",
+										"basename": "mainBase"
+									},
+									"pkg": {
+										"name": "client_side_test01",
+										"version": "0.0.1",
+										"depth": 0
+									}
+								},
+								"mojit": "Main",
+								"type": "asset",
+								"subtype": "css",
+								"affinity": {
+									"affinity": "common"
+								},
+								"selector": "*",
+								"name": "mainBase",
+								"id": "asset-css-mainBase",
+								"mime": {
+									"type": "text/css",
+									"charset": "UTF-8"
+								},
+								"url": "/static/Main/assets/mainBase.css"
+							},
+							{
+								"source": {
+									"fs": {
+										"fullPath": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main/assets/other.css",
+										"rootDir": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main",
+										"rootType": "mojit",
+										"subDir": ".",
+										"subDirArray": [],
+										"isFile": true,
+										"ext": ".css",
+										"basename": "other"
+									},
+									"pkg": {
+										"name": "client_side_test01",
+										"version": "0.0.1",
+										"depth": 0
+									}
+								},
+								"mojit": "Main",
+								"type": "asset",
+								"subtype": "css",
+								"affinity": {
+									"affinity": "common"
+								},
+								"selector": "*",
+								"name": "other",
+								"id": "asset-css-other",
+								"mime": {
+									"type": "text/css",
+									"charset": "UTF-8"
+								},
+								"url": "/static/Main/assets/other.css"
+							}
+						],
+						"required": {
+							"MainBinderOther": true,
+							"event-mouseenter": true,
+							"event-synthetic": true,
+							"node-base": true,
+							"event-base": true,
+							"event-custom-base": true,
+							"oop": true,
+							"yui-base": true,
+							"node-core": true,
+							"dom-core": true,
+							"features": true,
+							"selector": true,
+							"selector-native": true,
+							"dom-base": true,
+							"event-custom-complex": true,
+							"mojito-client": true
+						}
+					}
+				},
+				"ShakerHTMLFrameMojit": {
+					"inline": {
+						"css": [],
+						"js": []
+					}
+				},
+				"HTMLFrameMojit": {
+					"inline": {
+						"css": [],
+						"js": []
+					}
+				},
+				"LazyLoad": {
+					"inline": {
+						"css": [],
+						"js": []
+					}
+				},
+				"TunnelProxy": {
+					"inline": {
+						"css": [],
+						"js": []
+					}
+				}
+			},
+			"app": [
+				{
+					"source": {
+						"fs": {
+							"fullPath": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/assets/base.css",
+							"rootDir": "/Users/diegof/Sites/mojitos-app-test/client_side_test01",
+							"rootType": "app",
+							"subDir": ".",
+							"subDirArray": [],
+							"isFile": true,
+							"ext": ".css",
+							"basename": "base"
+						},
+						"pkg": {
+							"name": "client_side_test01",
+							"version": "0.0.1",
+							"depth": 0
+						}
+					},
+					"mojit": "shared",
+					"type": "asset",
+					"subtype": "css",
+					"affinity": {
+						"affinity": "common"
+					},
+					"selector": "*",
+					"name": "base",
+					"id": "asset-css-base",
+					"mime": {
+						"type": "text/css",
+						"charset": "UTF-8"
+					},
+					"url": "/static/client_side_test01/assets/base.css"
+				}
+			],
+			"routesBundle": {
+				"bundle": {
+					"js": [
+						{
+							"source": {
+								"fs": {
+									"fullPath": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main/binders/index.js",
+									"rootDir": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main",
+									"rootType": "mojit",
+									"subDir": ".",
+									"subDirArray": [],
+									"isFile": true,
+									"ext": ".js",
+									"basename": "index"
+								},
+								"pkg": {
+									"name": "client_side_test01",
+									"version": "0.0.1",
+									"depth": 0
+								}
+							},
+							"mojit": "Main",
+							"type": "binder",
+							"affinity": {
+								"affinity": "client"
+							},
+							"selector": "*",
+							"name": "index",
+							"id": "binder--index",
+							"yui": {
+								"name": "MainBinderIndex",
+								"version": "0.0.1",
+								"meta": {
+									"requires": [
+										"event-mouseenter",
+										"mojito-client"
+									]
+								}
+							},
+							"mime": {
+								"type": "application/javascript"
+							},
+							"url": "/static/MainBinderIndex.js"
+						}
+					],
+					"css": [
+						{
+							"source": {
+								"fs": {
+									"fullPath": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/assets/base.css",
+									"rootDir": "/Users/diegof/Sites/mojitos-app-test/client_side_test01",
+									"rootType": "app",
+									"subDir": ".",
+									"subDirArray": [],
+									"isFile": true,
+									"ext": ".css",
+									"basename": "base"
+								},
+								"pkg": {
+									"name": "client_side_test01",
+									"version": "0.0.1",
+									"depth": 0
+								}
+							},
+							"mojit": "shared",
+							"type": "asset",
+							"subtype": "css",
+							"affinity": {
+								"affinity": "common"
+							},
+							"selector": "*",
+							"name": "base",
+							"id": "asset-css-base",
+							"mime": {
+								"type": "text/css",
+								"charset": "UTF-8"
+							},
+							"url": "/static/client_side_test01/assets/base.css"
+						},
+						{
+							"source": {
+								"fs": {
+									"fullPath": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main/assets/mainBase.css",
+									"rootDir": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main",
+									"rootType": "mojit",
+									"subDir": ".",
+									"subDirArray": [],
+									"isFile": true,
+									"ext": ".css",
+									"basename": "mainBase"
+								},
+								"pkg": {
+									"name": "client_side_test01",
+									"version": "0.0.1",
+									"depth": 0
+								}
+							},
+							"mojit": "Main",
+							"type": "asset",
+							"subtype": "css",
+							"affinity": {
+								"affinity": "common"
+							},
+							"selector": "*",
+							"name": "mainBase",
+							"id": "asset-css-mainBase",
+							"mime": {
+								"type": "text/css",
+								"charset": "UTF-8"
+							},
+							"url": "/static/Main/assets/mainBase.css"
+						},
+						{
+							"source": {
+								"fs": {
+									"fullPath": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main/assets/index.css",
+									"rootDir": "/Users/diegof/Sites/mojitos-app-test/client_side_test01/mojits/Main",
+									"rootType": "mojit",
+									"subDir": ".",
+									"subDirArray": [],
+									"isFile": true,
+									"ext": ".css",
+									"basename": "index"
+								},
+								"pkg": {
+									"name": "client_side_test01",
+									"version": "0.0.1",
+									"depth": 0
+								}
+							},
+							"mojit": "Main",
+							"type": "asset",
+							"subtype": "css",
+							"affinity": {
+								"affinity": "common"
+							},
+							"selector": "*",
+							"name": "index",
+							"id": "asset-css-index",
+							"mime": {
+								"type": "text/css",
+								"charset": "UTF-8"
+							},
+							"url": "/static/Main/assets/index.css"
+						}
+					],
+					"required": {
+						"yui-base": true,
+						"oop": true,
+						"event-custom-base": true,
+						"querystring-stringify-simple": true,
+						"io-base": true,
+						"features": true,
+						"dom-core": true,
+						"dom-base": true,
+						"selector-native": true,
+						"selector": true,
+						"node-core": true,
+						"node-base": true,
+						"event-base": true,
+						"event-delegate": true,
+						"mojito": true,
+						"json-stringify": true,
+						"mojito-view-renderer": true,
+						"array-extras": true,
+						"mojito-util": true,
+						"mojito-action-context": true,
+						"mojito-dispatcher": true,
+						"querystring-parse": true,
+						"mojito-route-maker": true,
+						"mojito-client-store": true,
+						"querystring-stringify": true,
+						"mojito-mojit-proxy": true,
+						"json-parse": true,
+						"mojito-tunnel-client": true,
+						"node-event-delegate": true,
+						"pluginhost-base": true,
+						"pluginhost-config": true,
+						"node-pluginhost": true,
+						"dom-style": true,
+						"dom-style-ie": true,
+						"dom-screen": true,
+						"node-screen": true,
+						"node-style": true,
+						"mojito-output-handler": true,
+						"mojito-client": true,
+						"MainBinderIndex": true,
+						"event-mouseenter": true,
+						"event-synthetic": true,
+						"event-custom-complex": true
+					}
+				}
+			}
+		}
+	},
+	"core": [
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/addons/ac/analytics.common.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "analytics.common"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "addon",
+			"subtype": "ac",
+			"affinity": {
+				"affinity": "common"
+			},
+			"selector": "*",
+			"name": "analytics",
+			"id": "addon-ac-analytics",
+			"yui": {
+				"name": "mojito-analytics-addon",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"mojito",
+						"mojito-util",
+						"mojito-meta-addon"
+					]
+				}
+			},
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-analytics-addon.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/addons/ac/assets.common.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "assets.common"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "addon",
+			"subtype": "ac",
+			"affinity": {
+				"affinity": "common"
+			},
+			"selector": "*",
+			"name": "assets",
+			"id": "addon-ac-assets",
+			"yui": {
+				"name": "mojito-assets-addon",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"mojito",
+						"mojito-util"
+					]
+				}
+			},
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-assets-addon.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/addons/ac/composite.common.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "composite.common"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "addon",
+			"subtype": "ac",
+			"affinity": {
+				"affinity": "common"
+			},
+			"selector": "*",
+			"name": "composite",
+			"id": "addon-ac-composite",
+			"yui": {
+				"name": "mojito-composite-addon",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"mojito",
+						"mojito-util",
+						"mojito-perf",
+						"mojito-assets-addon",
+						"mojito-params-addon"
+					]
+				}
+			},
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-composite-addon.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/addons/ac/config.common.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "config.common"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "addon",
+			"subtype": "ac",
+			"affinity": {
+				"affinity": "common"
+			},
+			"selector": "*",
+			"name": "config",
+			"id": "addon-ac-config",
+			"yui": {
+				"name": "mojito-config-addon",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"mojito"
+					]
+				}
+			},
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-config-addon.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/addons/ac/cookie.client.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "cookie.client"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "addon",
+			"subtype": "ac",
+			"affinity": {
+				"affinity": "client"
+			},
+			"selector": "*",
+			"name": "cookie",
+			"id": "addon-ac-cookie",
+			"yui": {
+				"name": "mojito-cookie-addon",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"cookie",
+						"mojito",
+						"mojito-meta-addon"
+					]
+				}
+			},
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-cookie-addon.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/addons/ac/intl.common.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "intl.common"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "addon",
+			"subtype": "ac",
+			"affinity": {
+				"affinity": "common"
+			},
+			"selector": "*",
+			"name": "intl",
+			"id": "addon-ac-intl",
+			"yui": {
+				"name": "mojito-intl-addon",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"intl",
+						"datatype-date",
+						"mojito",
+						"mojito-util",
+						"mojito-config-addon"
+					]
+				}
+			},
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-intl-addon.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/addons/ac/meta.common.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "meta.common"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "addon",
+			"subtype": "ac",
+			"affinity": {
+				"affinity": "common"
+			},
+			"selector": "*",
+			"name": "meta",
+			"id": "addon-ac-meta",
+			"yui": {
+				"name": "mojito-meta-addon",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"mojito-util"
+					]
+				}
+			},
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-meta-addon.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/addons/ac/models.common.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "models.common"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "addon",
+			"subtype": "ac",
+			"affinity": {
+				"affinity": "common"
+			},
+			"selector": "*",
+			"name": "models",
+			"id": "addon-ac-models",
+			"yui": {
+				"name": "mojito-models-addon",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"mojito",
+						"mojito-util"
+					]
+				}
+			},
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-models-addon.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/addons/ac/params.common.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "params.common"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "addon",
+			"subtype": "ac",
+			"affinity": {
+				"affinity": "common"
+			},
+			"selector": "*",
+			"name": "params",
+			"id": "addon-ac-params",
+			"yui": {
+				"name": "mojito-params-addon",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"mojito"
+					]
+				}
+			},
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-params-addon.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/addons/ac/partial.common.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "partial.common"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "addon",
+			"subtype": "ac",
+			"affinity": {
+				"affinity": "common"
+			},
+			"selector": "*",
+			"name": "partial",
+			"id": "addon-ac-partial",
+			"yui": {
+				"name": "mojito-partial-addon",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"mojito-util",
+						"mojito-params-addon",
+						"mojito-view-renderer"
+					]
+				}
+			},
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-partial-addon.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/addons/ac/url.common.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "url.common"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "addon",
+			"subtype": "ac",
+			"affinity": {
+				"affinity": "common"
+			},
+			"selector": "*",
+			"name": "url",
+			"id": "addon-ac-url",
+			"yui": {
+				"name": "mojito-url-addon",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"querystring",
+						"mojito-config-addon",
+						"mojito-route-maker",
+						"mojito-util"
+					]
+				}
+			},
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-url-addon.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/addons/view-engines/hb.client.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "hb.client"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "addon",
+			"subtype": "view-engines",
+			"affinity": {
+				"affinity": "client"
+			},
+			"selector": "*",
+			"name": "hb",
+			"id": "addon-view-engines-hb",
+			"yui": {
+				"name": "mojito-hb",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"io-base",
+						"handlebars"
+					]
+				}
+			},
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-hb.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/addons/view-engines/mu.client.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "mu.client"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "addon",
+			"subtype": "view-engines",
+			"affinity": {
+				"affinity": "client"
+			},
+			"selector": "*",
+			"name": "mu",
+			"id": "addon-view-engines-mu",
+			"yui": {
+				"name": "mojito-mu",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"mojito-util",
+						"io-base"
+					]
+				}
+			},
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-mu.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/autoload/action-context.common.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "action-context.common"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "yui-module",
+			"affinity": {
+				"affinity": "common"
+			},
+			"selector": "*",
+			"yui": {
+				"name": "mojito-action-context",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"mojito",
+						"json-stringify",
+						"event-custom-base",
+						"mojito-view-renderer",
+						"mojito-util"
+					]
+				}
+			},
+			"name": "mojito-action-context",
+			"id": "yui-module--mojito-action-context",
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-action-context.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/autoload/dispatch.client.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "dispatch.client"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "yui-module",
+			"affinity": {
+				"affinity": "client"
+			},
+			"selector": "*",
+			"yui": {
+				"name": "mojito-dispatcher",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"mojito-action-context",
+						"mojito-util"
+					]
+				}
+			},
+			"name": "mojito-dispatcher",
+			"id": "yui-module--mojito-dispatcher",
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-dispatcher.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/autoload/mojit-proxy.client.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "mojit-proxy.client"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "yui-module",
+			"affinity": {
+				"affinity": "client"
+			},
+			"selector": "*",
+			"yui": {
+				"name": "mojito-mojit-proxy",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"mojito",
+						"mojito-util",
+						"querystring"
+					]
+				}
+			},
+			"name": "mojito-mojit-proxy",
+			"id": "yui-module--mojito-mojit-proxy",
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-mojit-proxy.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/autoload/mojito-client.client.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "mojito-client.client"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "yui-module",
+			"affinity": {
+				"affinity": "client"
+			},
+			"selector": "*",
+			"yui": {
+				"name": "mojito-client",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"io-base",
+						"event-delegate",
+						"node-base",
+						"querystring-stringify-simple",
+						"mojito",
+						"mojito-dispatcher",
+						"mojito-route-maker",
+						"mojito-client-store",
+						"mojito-mojit-proxy",
+						"mojito-tunnel-client",
+						"mojito-output-handler",
+						"mojito-util"
+					]
+				}
+			},
+			"name": "mojito-client",
+			"id": "yui-module--mojito-client",
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-client.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/autoload/mojito-test.common.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "mojito-test.common"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "yui-module",
+			"affinity": {
+				"affinity": "common"
+			},
+			"selector": "*",
+			"yui": {
+				"name": "mojito-test",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"mojito"
+					]
+				}
+			},
+			"name": "mojito-test",
+			"id": "yui-module--mojito-test",
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-test.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/autoload/mojito.common.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "mojito.common"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "yui-module",
+			"affinity": {
+				"affinity": "common"
+			},
+			"selector": "*",
+			"yui": {
+				"name": "mojito",
+				"version": "0.1.0",
+				"meta": {
+					"requires": []
+				}
+			},
+			"name": "mojito",
+			"id": "yui-module--mojito",
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/autoload/output-handler.client.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "output-handler.client"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "yui-module",
+			"affinity": {
+				"affinity": "client"
+			},
+			"selector": "*",
+			"yui": {
+				"name": "mojito-output-handler",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"mojito",
+						"json-parse",
+						"node"
+					]
+				}
+			},
+			"name": "mojito-output-handler",
+			"id": "yui-module--mojito-output-handler",
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-output-handler.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/autoload/perf.client.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "perf.client"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "yui-module",
+			"affinity": {
+				"affinity": "client"
+			},
+			"selector": "*",
+			"yui": {
+				"name": "mojito-perf",
+				"meta": {
+					"requires": []
+				}
+			},
+			"name": "mojito-perf",
+			"id": "yui-module--mojito-perf",
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-perf.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/autoload/rest.common.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "rest.common"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "yui-module",
+			"affinity": {
+				"affinity": "common"
+			},
+			"selector": "*",
+			"yui": {
+				"name": "mojito-rest-lib",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"io-base",
+						"querystring-stringify-simple",
+						"mojito"
+					]
+				}
+			},
+			"name": "mojito-rest-lib",
+			"id": "yui-module--mojito-rest-lib",
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-rest-lib.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/autoload/route-maker.common.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "route-maker.common"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "yui-module",
+			"affinity": {
+				"affinity": "common"
+			},
+			"selector": "*",
+			"yui": {
+				"name": "mojito-route-maker",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"querystring-stringify-simple",
+						"querystring-parse",
+						"mojito-util"
+					]
+				}
+			},
+			"name": "mojito-route-maker",
+			"id": "yui-module--mojito-route-maker",
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-route-maker.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/autoload/store.client.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "store.client"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "yui-module",
+			"affinity": {
+				"affinity": "client"
+			},
+			"selector": "*",
+			"yui": {
+				"name": "mojito-client-store",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"mojito-util",
+						"querystring-stringify-simple"
+					]
+				}
+			},
+			"name": "mojito-client-store",
+			"id": "yui-module--mojito-client-store",
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-client-store.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/autoload/tunnel-client.common.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "tunnel-client.common"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "yui-module",
+			"affinity": {
+				"affinity": "common"
+			},
+			"selector": "*",
+			"yui": {
+				"name": "mojito-tunnel-client",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"mojito",
+						"io-base",
+						"json-stringify",
+						"json-parse"
+					]
+				}
+			},
+			"name": "mojito-tunnel-client",
+			"id": "yui-module--mojito-tunnel-client",
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-tunnel-client.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/autoload/util.common.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "util.common"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "yui-module",
+			"affinity": {
+				"affinity": "common"
+			},
+			"selector": "*",
+			"yui": {
+				"name": "mojito-util",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"array-extras",
+						"json-stringify",
+						"mojito"
+					]
+				}
+			},
+			"name": "mojito-util",
+			"id": "yui-module--mojito-util",
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-util.js"
+		},
+		{
+			"source": {
+				"fs": {
+					"fullPath": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app/autoload/view-renderer.client.js",
+					"rootDir": "/Users/diegof/Sites/mojitos/forkedMojito/lib/app",
+					"rootType": "bundle",
+					"subDir": ".",
+					"subDirArray": [],
+					"isFile": true,
+					"ext": ".js",
+					"basename": "view-renderer.client"
+				},
+				"pkg": {
+					"name": "mojito",
+					"version": "0.5.0",
+					"depth": 999
+				}
+			},
+			"mojit": "shared",
+			"type": "yui-module",
+			"affinity": {
+				"affinity": "client"
+			},
+			"selector": "*",
+			"yui": {
+				"name": "mojito-view-renderer",
+				"version": "0.1.0",
+				"meta": {
+					"requires": [
+						"mojito"
+					]
+				}
+			},
+			"name": "mojito-view-renderer",
+			"id": "yui-module--mojito-view-renderer",
+			"mime": {
+				"type": "application/javascript"
+			},
+			"url": "/static/mojito-view-renderer.js"
+		}
+	]
+}
+[34m[SHAKER] - Processing Metadata...[39m
+[34m[SHAKER] - Writting metadata...[39m
+[1m[32m[SHAKER] - Metadata written in [35m/Users/diegof/Sites/mojitos-app-test/client_side_test01/shaker-meta.json[39m. ✔[39m[22m
+[1m[32m[SHAKER] - Runtime ready. Returning control to mojito ✔[39m[22m
+[1m[32m✔ mojito done.[39m[22m

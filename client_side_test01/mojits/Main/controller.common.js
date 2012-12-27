@@ -35,10 +35,14 @@ YUI.add('Main', function(Y, NAME) {
                     return;
                 }
                 //ac.assets.addCss('./index.css');
-                ac.done({
+                var mydata = {
                     status: 'Mojito is working.',
                     data: data
-                });
+                };
+
+                //mydata['shaker-inline'] = 'This is shaker inline text';
+
+                ac.done(mydata);
             });
         },
         json: function (ac) {
@@ -54,4 +58,4 @@ YUI.add('Main', function(Y, NAME) {
 
     };
 
-}, '0.0.1', {requires: ['mojito','mojito-assets-addon', 'mojito-models-addon', 'MainModelFoo']});
+}, '0.0.1', {requires: ['mojito','mojito-assets-addon','shaker-inline-addon', 'mojito-models-addon', 'MainModelFoo']});

@@ -65,4 +65,4 @@ YUI.add('MainBinderIndex', function(Y, NAME) {
 
     };
 
-}, '0.0.1', {requires: ['event-mouseenter', 'mojito-client']});
+}, '0.0.1', {requires: ['event-mouseenter', 'mojito-client', 'autoloadGlobal']});
