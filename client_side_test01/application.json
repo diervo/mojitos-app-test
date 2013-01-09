@@ -1,68 +1,113 @@
 [
-    {
-        "settings": [ "master" ],
-        "shaker": {
-            "optimizeBootstrap": true,
+   {
+       "settings": [ "master" ],
+       "yui": {
+           "config": {
+               "base": "http://l.yimg.com/zz",
+               "comboBase": "http://l.yimg.com/zz/combo?",
+               "comboSep": "&",
+               "combine": true,
+               "root": "yui:3.7.3/build/",
 
-            "rollupConfig": {
-                "bundleViews": false,
-                "bundleController": false
-            },
-            "routeBundle": {
-                "bundle": [
-                    "Main.index"   
-                ]
-            }
-        },
-        "specs": {
-            "frame": {
-                "type": "ShakerHTMLFrameMojit",
-                "config": {
-                    "deploy": true,
-                    "title": "Shaker Demo",
-                    "child": {
-                        "type": "Main"
-                    }
-                }
-            },
-            "frameBundle": {
-                "type": "ShakerHTMLFrameMojit",
-                "config": {
-                    "deploy": true,
-                    "title": "Shaker Demo",
-                    "child": {
-                        "type": "Main"
-                    }
-                }
-            }
-        }
-    },
-    {
-        "settings": ["environment:test"],
-        "shaker": {
-            "task": "local",
-            "minify": false
-        }
-    },
-    {
-        "settings": ["environment:prod"],
-        "task": "mobstor",
-        "module": "mojito-shaker-mobstor",
-        "comboCDN": true,
-        "rollupConfig":{
-            "bundleViews": false,
-            "bundleController": false
-        },
-        "taskConfig": {
-            "mobstor": {
-                "ycs": "l.yimg.com/pv/",
-                "host": "search.zenfs.com",
-                "certificate": "yahoo.mobstor.client.search.prod",
-                "proxy": {
-                    "host": "yca-proxy.corp.yahoo.com",
-                    "port": 3128
-                }
-            }
-        }
-    }
+
+               "groupsCDN": {
+                   "app":{
+                       "base": "http://a.l.yimg.com/",
+                       "comboBase": "http://a.l.yimg.com/zz/combo?",
+                       "comboSep": "&",
+                       "combine": true,
+                       "root": ""
+                   }
+               },
+                    "comboSep": "&"
+           }
+       },
+       "shaker": {
+           "optimizeBootstrap": true,
+           "rollupConfig": {
+               "bundleViews": false,
+               "bundleController": true
+           },
+           "routeBundle": {
+               "bundle": [
+                   "Main.index"   
+               ]
+           },
+            "filterInCore": [
+                "mojito-assets-addon",
+                "mojito-composite-addon",
+                "mojito-config-addon",
+                "mojito-intl-addon",
+                "mojito-meta-addon",
+                "mojito-models-addon",
+                "mojito-cookie-addon",
+                "mojito-params-addon",
+                "mojito-partial-addon",
+                "mojito-url-addon",
+                "mojito-mu",
+                "mojito-hb",
+                "mojito-perf",
+                "mojito-test",
+                "mojito-analytics-addon",
+                "mojito-rest-lib"
+            ]
+       },
+       "specs": {
+           "frame": {
+               "type": "ShakerHTMLFrameMojit",
+               "config": {
+                   "deploy": true,
+                   "title": "Shaker Demo",
+                   "child": {
+                       "type": "Main"
+                   }
+               }
+           },
+           "frameBundle": {
+               "type": "ShakerHTMLFrameMojit",
+               "config": {
+                   "deploy": true,
+                   "title": "Shaker Demo",
+                   "child": {
+                       "type": "Main"
+                   }
+               }
+           }
+       }
+   },
+   {
+       "settings": ["environment:test"],
+       "shaker": {
+           "task": "local",
+           "ksplit": false,
+           "minify": true
+       }
+   },
+   {
+       "settings": ["environment:prod"],
+           "shaker":{
+           "task": "mobstor",
+           "module": "mojito-shaker-mobstor",
+           "comboCDN": true,
+           "optimizeBootstrap": true,
+           "rollupConfig":{
+               "bundleViews": false,
+               "bundleController": false
+           },
+           "taskConfig": {
+               "prefix": "pv",
+               "mobstor": {
+                   "ycs": "l.yimg.com/pv/",
+                   "host": "search.zenfs.com",
+                   "certificate": "yahoo.mobstor.client.search.prod",
+                   "proxy": {
+                       "host": "yca-proxy.corp.yahoo.com",
+                       "port": 3128
+                   }
+               }
+           }
+          }
+   }
+
 ]
+
